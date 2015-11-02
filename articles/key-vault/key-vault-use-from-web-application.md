@@ -79,6 +79,7 @@ Following is the code to get an access token from Azure Active Directory. This c
 	//add these using statements
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 	using System.Web.Configuration;
+	using System.Threading.Tasks;
 	
 	//this is an optional property to hold the secret after it is retrieved
 	public static string EncryptSecret { get; set; }
